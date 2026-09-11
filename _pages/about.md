@@ -23,9 +23,14 @@ Kaisa Julihati is currently a PhD student in Journalism and Communication at Nan
 <div style="flex: 1; min-width: 280px;">
 <h2>Education</h2>
 <ul style="list-style: none; padding-left: 0;">
-  <li><i class="fas fa-graduation-cap"></i> PhD Student in Journalism and Communication, Nanjing University</li>
-  <li><i class="fas fa-graduation-cap"></i> M.A. in Journalism and Communication, Central China Normal University</li>
-  <li><i class="fas fa-graduation-cap"></i> B.Eng. in Industrial Engineering, Shanghai Maritime University</li>
+  <li style="margin-bottom: 16px;"><i class="fas fa-graduation-cap"></i> <strong>PhD Student in Journalism and Communication</strong><br>
+  Nanjing University</li>
+
+  <li style="margin-bottom: 16px;"><i class="fas fa-graduation-cap"></i> <strong>MA in Communication, 2026</strong><br>
+  Central China Normal University</li>
+
+  <li><i class="fas fa-graduation-cap"></i> <strong>BEng in Industrial Engineering, 2022</strong><br>
+  Shanghai Maritime University</li>
 </ul>
 </div>
 
