@@ -23,10 +23,10 @@ Before beginning his doctoral studies, he received a master's degree in Journali
 
 <div style="flex: 1; min-width: 280px;">
 <h2>Education</h2>
-<ul>
-  <li>PhD Student in Journalism and Communication, Nanjing University</li>
-  <li>M.A. in Journalism and Communication, Central China Normal University</li>
-  <li>B.Eng. in Industrial Engineering, Shanghai Maritime University</li>
+<ul style="list-style: none; padding-left: 0;">
+  <li><i class="fas fa-graduation-cap"></i> PhD Student in Journalism and Communication, Nanjing University</li>
+  <li><i class="fas fa-graduation-cap"></i> M.A. in Journalism and Communication, Central China Normal University</li>
+  <li><i class="fas fa-graduation-cap"></i> B.Eng. in Industrial Engineering, Shanghai Maritime University</li>
 </ul>
 </div>
 
