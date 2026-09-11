@@ -14,3 +14,8 @@ Kaisa Julihati is currently a PhD student in Journalism and Communication at Nan
 - Accessibility Communication
 - Digital Platforms
 - Identity Construction
+# Education
+
+- PhD Student in Journalism and Communication, Nanjing University
+- M.A. in Journalism and Communication, Central China Normal University
+- B.Eng. in Industrial Engineering, Shanghai Maritime University
