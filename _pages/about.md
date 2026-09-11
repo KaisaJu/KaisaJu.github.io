@@ -15,7 +15,7 @@ Kaisa Julihati is currently a PhD student in Journalism and Communication at Nan
 <ul>
   <li>Health Communication</li>
   <li>Accessibility Communication</li>
-  <li>Digital Platforms</li>
+  <li>Information Accessibility</li>
   <li>Identity Construction</li>
 </ul>
 </div>
