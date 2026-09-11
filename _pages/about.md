@@ -12,24 +12,22 @@ Before beginning his doctoral studies, he received a master's degree in Journali
 <div style="display: flex; gap: 60px; align-items: flex-start; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 280px;">
-
-## Research Interests
-
-- Health Communication
-- Accessibility Communication
-- Digital Platforms
-- Identity Construction
-
+<h2>Research Interests</h2>
+<ul>
+  <li>Health Communication</li>
+  <li>Accessibility Communication</li>
+  <li>Digital Platforms</li>
+  <li>Identity Construction</li>
+</ul>
 </div>
 
 <div style="flex: 1; min-width: 280px;">
-
-## Education
-
-- PhD Student in Journalism and Communication, Nanjing University
-- M.A. in Journalism and Communication, Central China Normal University
-- B.Eng. in Industrial Engineering, Shanghai Maritime University
-
+<h2>Education</h2>
+<ul>
+  <li>PhD Student in Journalism and Communication, Nanjing University</li>
+  <li>M.A. in Journalism and Communication, Central China Normal University</li>
+  <li>B.Eng. in Industrial Engineering, Shanghai Maritime University</li>
+</ul>
 </div>
 
 </div>
