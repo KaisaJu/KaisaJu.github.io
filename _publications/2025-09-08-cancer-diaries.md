@@ -1,7 +1,7 @@
 ---
 title: "Cancer diaries: a study of communication characteristics in cancer patients’ illness narratives on Chinese TikTok"
 collection: publications
-category: journal-articles
+category: manuscripts
 permalink: /publication/2025-cancer-diaries
 excerpt: 'A study of communication characteristics in cancer patients’ illness narratives on Chinese TikTok.'
 date: 2025-09-08
