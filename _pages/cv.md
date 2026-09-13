@@ -18,10 +18,9 @@ Education
 Research Interests
 ==================
 * Health Communication
-* Digital Health Communication
-* Illness Narratives
 * Accessibility Communication
-* Disability Studies
+* Information Accessibility
+* Identity Construction
 
 Publications
 ======
