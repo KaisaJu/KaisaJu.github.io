@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 Kaisa Julihati is currently a PhD student in Journalism and Communication at Nanjing University. His research interests focus on health communication and accessibility communication, particularly the visibility, information accessibility, and identity construction of patients and people with disabilities on digital platforms. His interdisciplinary background allows him to explore communication issues through both theoretical perspectives and quantitative and qualitative research methods.
-<div style="max-width: 900px; height: 100px; overflow: hidden; margin: 24px 0 36px 0;">
-  <img src="/images/gothic-banner.png"
-       alt="Decorative academic banner"
-       style="width: 100%; height: 100%; object-fit: cover; opacity: 0.35;" />
+<div style="max-width: 850px; margin: 25px 0 40px 0;">
+  <img src="/images/gothic-divider.png"
+       alt="Decorative academic divider"
+       style="width: 100%; display: block; opacity: 0.45;" />
 </div>
 
 <div style="display: flex; gap: 60px; align-items: flex-start; flex-wrap: wrap;">
