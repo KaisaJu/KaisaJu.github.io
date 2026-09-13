@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Kaisa Julihati is currently a PhD student in Journalism and Communication at Nanjing University. His research interests primarily focus on health communication and accessibility communication, with particular attention to the visibility, information accessibility, and identity construction of patients and people with disabilities on digital platforms. His interdisciplinary background has led him to develop a research approach that combines communication theory with quantitative research methods.
+Kaisa Julihati is currently a PhD student in Journalism and Communication at Nanjing University. His research interests focus on health communication and accessibility communication, particularly the visibility, information accessibility, and identity construction of patients and people with disabilities on digital platforms. His interdisciplinary background allows him to explore communication issues through both theoretical perspectives and quantitative and qualitative research methods.
 <div style="display: flex; gap: 60px; align-items: flex-start; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 280px;">
