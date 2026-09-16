@@ -15,6 +15,7 @@
       'nav.publications': 'Publications',
       'nav.talks': 'Talks',
       'nav.cv': 'CV',
+      'nav.guide': 'Update Guide',
 
       'sidebar.location': 'Nanjing, China',
       'sidebar.affiliation': 'Nanjing University',
@@ -76,7 +77,33 @@
       'cv.book.text': 'Contributor to <em>Introduction to Media and Cultural Studies</em> (forthcoming), published by Central China Normal University Press. Drafted initial manuscripts for three chapters under faculty supervision.',
       'home.viewAllPubs': 'View all publications →',
       'home.viewAllTalks': 'View all talks →',
-      'home.viewCv': 'View full CV →'
+      'home.viewCv': 'View full CV →',
+
+      'guide.title': 'How to Update This Site',
+      'guide.subtitle': 'A short guide for maintaining and publishing content on this website.',
+      'guide.how.title': 'How This Site Works',
+      'guide.how.p1': 'This website is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and served from the repository <a href="https://github.com/KaisaJu/KaisaJu.github.io">KaisaJu/KaisaJu.github.io</a> (branch <code>master</code>). It is a pure static website: the HTML files in the repository are exactly what you see online. There is no Jekyll or other build step &mdash; a file named <code>.nojekyll</code> in the repository root turns that off &mdash; so every committed change goes live automatically in about one minute.',
+      'guide.f1': '<code>index.html</code> &mdash; the home page (biography, education, research interests)',
+      'guide.f2': '<code>publications/index.html</code> &mdash; the publications page',
+      'guide.f3': '<code>talks/index.html</code> &mdash; the talks page',
+      'guide.f4': '<code>cv/index.html</code> &mdash; the CV page',
+      'guide.f5': '<code>assets/js/i18n.js</code> &mdash; all bilingual (Chinese / English) text',
+      'guide.f6': '<code>images/</code> &mdash; profile photo and banner image',
+      'guide.f7': '<code>assets/css/new-style.css</code> &mdash; colors, fonts and layout',
+      'guide.browser.title': 'Option 1: Edit Directly in the Browser (Easiest)',
+      'guide.browser.p1': 'Open the <a href="https://github.com/KaisaJu/KaisaJu.github.io">repository on GitHub</a>, click the file you want to change, press the pencil icon (&ldquo;Edit&rdquo;), modify the text, then click &ldquo;Commit changes&rdquo;. GitHub Pages rebuilds the site automatically &mdash; no extra software needed.',
+      'guide.cli.title': 'Option 2: Edit Locally with Git',
+      'guide.cli.p1': 'Clone the repository to your computer, edit the files, then push:',
+      'guide.cli.comment': '## edit files here, then:',
+      'guide.cli.note': 'Push access requires a Personal Access Token (or SSH key) &mdash; GitHub no longer accepts account passwords for git push. After about one minute, refresh the website and the change is live.',
+      'guide.bilingual.title': 'Updating Bilingual Text',
+      'guide.bilingual.p1': 'Most of the visible text is bilingual. On the page it appears as attributes like <code>data-i18n="home.bio"</code>; the actual Chinese and English strings live in <code>assets/js/i18n.js</code>, inside the <code>I18N_DICT</code> object (two blocks: <code>en</code> and <code>zh</code>). When changing any text, update <strong>both</strong> the <code>en</code> and <code>zh</code> entries, otherwise the language toggle on the top right will fall back to the old text.',
+      'guide.addpub.title': 'Adding a Publication or a Talk',
+      'guide.addpub.p1': 'Open <code>publications/index.html</code>, copy an existing <code>&lt;article class="pub-card"&gt;</code> block, paste it below, and fill in the new title, venue and badges. Adding a talk works the same way in <code>talks/index.html</code> (copy a <code>talk-card</code> block). If the new entry needs its own bilingual text, add matching keys to both the <code>en</code> and <code>zh</code> blocks of <code>assets/js/i18n.js</code>, and reference them with <code>data-i18n="..."</code>.',
+      'guide.images.title': 'Replacing the Photo or the Banner',
+      'guide.images.p1': 'Replace <code>images/profile.JPG</code> (portrait photo) or <code>images/banner.png</code> (decorative divider) with a new file of the same name, or upload a new file and update the corresponding <code>&lt;img src="..."&gt;</code> references.',
+      'guide.undo.title': 'If Something Goes Wrong',
+      'guide.undo.p1': 'Every change is stored as a commit, so nothing is ever lost. On the repository page, open &ldquo;Commits&rdquo;, find the last good version, click &ldquo;&hellip;&rdquo; and choose &ldquo;Revert&rdquo; &mdash; the website rolls back automatically after the next build.'
     },
 
     zh: {
@@ -84,6 +111,7 @@
       'nav.publications': '论文',
       'nav.talks': '报告',
       'nav.cv': '简历',
+      'nav.guide': '更新指南',
 
       'sidebar.location': '中国南京',
       'sidebar.affiliation': '南京大学',
@@ -145,7 +173,33 @@
       'cv.book.text': '参编《媒介与文化研究导论》（即出），由华中师范大学出版社出版。在导师指导下执笔三个章节的初稿。',
       'home.viewAllPubs': '查看全部论文 →',
       'home.viewAllTalks': '查看全部报告 →',
-      'home.viewCv': '查看完整简历 →'
+      'home.viewCv': '查看完整简历 →',
+
+      'guide.title': '如何更新本站',
+      'guide.subtitle': '一份简短的网站维护与内容发布指南。',
+      'guide.how.title': '网站的运行方式',
+      'guide.how.p1': '本站托管在 <a href="https://pages.github.com/">GitHub Pages</a> 上，内容来自仓库 <a href="https://github.com/KaisaJu/KaisaJu.github.io">KaisaJu/KaisaJu.github.io</a>（<code>master</code> 分支）。这是一个纯静态网站：仓库里的 HTML 文件就是你在网上看到的样子。仓库根目录下的 <code>.nojekyll</code> 文件关闭了 Jekyll 构建，因此没有额外的编译环节——每一次提交（commit）都会在约一分钟内自动上线。',
+      'guide.f1': '<code>index.html</code> —— 首页（个人简介、教育背景、研究兴趣）',
+      'guide.f2': '<code>publications/index.html</code> —— 论文页',
+      'guide.f3': '<code>talks/index.html</code> —— 报告页',
+      'guide.f4': '<code>cv/index.html</code> —— 简历页',
+      'guide.f5': '<code>assets/js/i18n.js</code> —— 全部中英双语文案',
+      'guide.f6': '<code>images/</code> —— 头像照片与分隔图',
+      'guide.f7': '<code>assets/css/new-style.css</code> —— 配色、字体与布局',
+      'guide.browser.title': '方式一：直接在浏览器里改（最简单）',
+      'guide.browser.p1': '打开 <a href="https://github.com/KaisaJu/KaisaJu.github.io">GitHub 上的仓库</a>，点进要修改的文件，点击铅笔图标（&ldquo;Edit&rdquo;）修改文字，然后点击 &ldquo;Commit changes&rdquo; 提交。GitHub Pages 会自动重新发布——无需安装任何软件。',
+      'guide.cli.title': '方式二：在本地用 Git 修改',
+      'guide.cli.p1': '把仓库克隆到本地电脑，改完文件后推送：',
+      'guide.cli.comment': '## 在这里编辑文件，然后：',
+      'guide.cli.note': '推送需要 Personal Access Token（或 SSH 密钥）——GitHub 已不接受账号密码做 git push。约一分钟后刷新网站，改动即已上线。',
+      'guide.bilingual.title': '修改中英双语文案',
+      'guide.bilingual.p1': '网站上大部分文字是双语的。页面里它们以 <code>data-i18n="home.bio"</code> 这样的属性出现；真正的中文和英文内容存放在 <code>assets/js/i18n.js</code> 的 <code>I18N_DICT</code> 对象中（分 <code>en</code> 和 <code>zh</code> 两套）。修改任何文案时，<strong>两套都要同步改</strong>，否则右上角的语言切换会退回旧文案。',
+      'guide.addpub.title': '新增一篇论文或一个报告',
+      'guide.addpub.p1': '打开 <code>publications/index.html</code>，复制一个现成的 <code>&lt;article class="pub-card"&gt;</code> 区块，粘贴到下方，填入新的标题、出处和徽章。新增报告同理，在 <code>talks/index.html</code> 里复制一个 <code>talk-card</code> 区块。如果新条目需要自己的双语文案，就在 <code>assets/js/i18n.js</code> 的 <code>en</code>、<code>zh</code> 两套里各加一个同名 key，并在页面里用 <code>data-i18n="..."</code> 引用它。',
+      'guide.images.title': '更换头像或分隔图',
+      'guide.images.p1': '用同名新文件替换 <code>images/profile.JPG</code>（头像照片）或 <code>images/banner.png</code>（装饰性分隔图）；也可以上传新文件后，同步修改页面里对应的 <code>&lt;img src="..."&gt;</code> 引用。',
+      'guide.undo.title': '改错了怎么办',
+      'guide.undo.p1': '每一次修改都是一个提交（commit），任何内容都不会丢失。在仓库页面打开 &ldquo;Commits&rdquo;，找到上一个正常版本，点 &ldquo;&hellip;&rdquo; 选择 &ldquo;Revert&rdquo;，网站会在下一次构建后自动回滚。'
     }
   };
 

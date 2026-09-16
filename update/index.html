@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Guide - Kaisa Julihati</title>
+  <meta name="description" content="How to update and publish content on this website">
+
+  <link rel="stylesheet" href="/assets/css/fontawesome.css">
+  <link rel="stylesheet" href="/assets/css/new-style.css">
+</head>
+<body>
+
+  <div class="top-bar" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <div class="masthead__inner-wrap">
+      <nav class="greedy-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="visible-links">
+          <li class="brand"><a href="/">Kaisa Julihati</a></li>
+        </ul>
+        <ul class="visible-links">
+          <li><a href="/" data-i18n="nav.home">Home</a></li>
+          <li><a href="/publications/" data-i18n="nav.publications">Publications</a></li>
+          <li><a href="/talks/" data-i18n="nav.talks">Talks</a></li>
+          <li><a href="/cv/" data-i18n="nav.cv">CV</a></li>
+          <li><a href="/update/" class="active" data-i18n="nav.guide">Update Guide</a></li>
+        </ul>
+        <div class="lang-toggle" id="lang-toggle" title="切换语言 / Switch language">
+          <span data-lang="zh">中文</span>
+          <span data-lang="en" class="active">EN</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <aside class="sidebar" role="complementary">
+      <div class="author-card">
+        <div class="author__avatar-wrap">
+          <img src="/images/profile.JPG" class="author__avatar" alt="Kaisa Julihati" fetchpriority="high">
+        </div>
+        <div class="author__content">
+          <h3 class="author__name" data-i18n="sidebar.name">Kaisa Julihati</h3>
+          <p class="author__bio" data-i18n="sidebar.role">PhD Student</p>
+        </div>
+        <ul class="author__meta">
+          <li><i class="fas fa-fw fa-location-dot"></i> <span data-i18n="sidebar.location">Nanjing, China</span></li>
+          <li><i class="fas fa-fw fa-building-columns"></i> <span data-i18n="sidebar.affiliation">Nanjing University</span></li>
+        </ul>
+        <div class="author__social">
+          <a href="mailto:kiraidesh@163.com"><i class="fas fa-envelope" aria-hidden="true"></i><span data-i18n="sidebar.email">Email</span></a>
+          <a href="https://orcid.org/0009-0000-3496-7605"><i class="fab fa-orcid" aria-hidden="true"></i><span data-i18n="sidebar.orcid">ORCID</span></a>
+          <a href="https://github.com/KaisaJu"><i class="fab fa-github" aria-hidden="true"></i><span data-i18n="sidebar.github">GitHub</span></a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="page" role="main">
+      <section class="section is-visible" style="margin-top:0;">
+        <h1 class="page__title" data-i18n="guide.title">How to Update This Site</h1>
+        <p class="cv-block__text" data-i18n="guide.subtitle">A short guide for maintaining and publishing content on this website.</p>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.how.title">How This Site Works</h2>
+        <p class="cv-block__text" data-i18n="guide.how.p1">This website is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and served from the repository <a href="https://github.com/KaisaJu/KaisaJu.github.io">KaisaJu/KaisaJu.github.io</a> (branch <code>master</code>). It is a pure static website: the HTML files in the repository are exactly what you see online. There is no Jekyll or other build step &mdash; a file named <code>.nojekyll</code> in the repository root turns that off &mdash; so every committed change goes live automatically in about one minute.</p>
+        <ul>
+          <li data-i18n="guide.f1"><code>index.html</code> &mdash; the home page (biography, education, research interests)</li>
+          <li data-i18n="guide.f2"><code>publications/index.html</code> &mdash; the publications page</li>
+          <li data-i18n="guide.f3"><code>talks/index.html</code> &mdash; the talks page</li>
+          <li data-i18n="guide.f4"><code>cv/index.html</code> &mdash; the CV page</li>
+          <li data-i18n="guide.f5"><code>assets/js/i18n.js</code> &mdash; all bilingual (Chinese / English) text</li>
+          <li data-i18n="guide.f6"><code>images/</code> &mdash; profile photo and banner image</li>
+          <li data-i18n="guide.f7"><code>assets/css/new-style.css</code> &mdash; colors, fonts and layout</li>
+        </ul>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.browser.title">Option 1: Edit Directly in the Browser (Easiest)</h2>
+        <p class="cv-block__text" data-i18n="guide.browser.p1">Open the <a href="https://github.com/KaisaJu/KaisaJu.github.io">repository on GitHub</a>, click the file you want to change, press the pencil icon (&ldquo;Edit&rdquo;), modify the text, then click &ldquo;Commit changes&rdquo;. GitHub Pages rebuilds the site automatically &mdash; no extra software needed.</p>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.cli.title">Option 2: Edit Locally with Git</h2>
+        <p class="cv-block__text" data-i18n="guide.cli.p1">Clone the repository to your computer, edit the files, then push:</p>
+<pre class="guide-code">git clone https://github.com/KaisaJu/KaisaJu.github.io.git
+cd KaisaJu.github.io
+<span data-i18n="guide.cli.comment">## edit files here, then:</span>
+git add -A
+git commit -m "Update content"
+git push origin master</pre>
+        <p class="guide-note"><i class="fas fa-circle-info"></i> <span data-i18n="guide.cli.note">Push access requires a Personal Access Token (or SSH key) &mdash; GitHub no longer accepts account passwords for git push. After about one minute, refresh the website and the change is live.</span></p>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.bilingual.title">Updating Bilingual Text</h2>
+        <p class="cv-block__text" data-i18n="guide.bilingual.p1">Most of the visible text is bilingual. On the page it appears as attributes like <code>data-i18n="home.bio"</code>; the actual Chinese and English strings live in <code>assets/js/i18n.js</code>, inside the <code>I18N_DICT</code> object (two blocks: <code>en</code> and <code>zh</code>). When changing any text, update <strong>both</strong> the <code>en</code> and <code>zh</code> entries, otherwise the language toggle on the top right will fall back to the old text.</p>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.addpub.title">Adding a Publication or a Talk</h2>
+        <p class="cv-block__text" data-i18n="guide.addpub.p1">Open <code>publications/index.html</code>, copy an existing <code>&lt;article class="pub-card"&gt;</code> block, paste it below, and fill in the new title, venue and badges. Adding a talk works the same way in <code>talks/index.html</code> (copy a <code>talk-card</code> block). If the new entry needs its own bilingual text, add matching keys to both the <code>en</code> and <code>zh</code> blocks of <code>assets/js/i18n.js</code>, and reference them with <code>data-i18n=&quot;...&quot;</code>.</p>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.images.title">Replacing the Photo or the Banner</h2>
+        <p class="cv-block__text" data-i18n="guide.images.p1">Replace <code>images/profile.JPG</code> (portrait photo) or <code>images/banner.png</code> (decorative divider) with a new file of the same name, or upload a new file and update the corresponding <code>&lt;img src="..."&gt;</code> references.</p>
+      </section>
+
+      <section class="section cv-block">
+        <h2 class="section-title" data-i18n="guide.undo.title">If Something Goes Wrong</h2>
+        <p class="cv-block__text" data-i18n="guide.undo.p1">Every change is stored as a commit, so nothing is ever lost. On the repository page, open &ldquo;Commits&rdquo;, find the last good version, click &ldquo;&hellip;&rdquo; and choose &ldquo;Revert&rdquo; &mdash; the website rolls back automatically after the next build.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="page__footer">
+    <div class="page__footer-inner">
+      <ul class="footer__social">
+        <li><a href="https://github.com/KaisaJu"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="mailto:kiraidesh@163.com"><i class="fas fa-envelope"></i> <span data-i18n="sidebar.email">Email</span></a></li>
+      </ul>
+      <div class="footer__copyright">
+        &copy; 2026 Kaisa Julihati. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/i18n.js"></script>
+  <script src="/assets/js/animations.js"></script>
+</body>
+</html>

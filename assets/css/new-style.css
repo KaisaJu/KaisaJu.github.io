@@ -941,6 +941,47 @@ img {
   background: var(--nju-gold);
 }
 
+/* Update guide page */
+.cv-block code,
+.cv-block__text code {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 0.85em;
+  background: var(--bg-muted);
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  padding: 1px 6px;
+  color: var(--nju-purple-deep);
+  word-break: break-all;
+}
+
+.guide-code {
+  background: var(--bg-muted);
+  border-left: 3px solid var(--nju-gold);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  margin: 12px 0 24px;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--nju-purple-deep);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.guide-code b {
+  color: var(--nju-purple);
+}
+
+.guide-note {
+  margin: 12px 0 0;
+  padding: 10px 16px;
+  background: var(--nju-gold-soft);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .page-wrapper {
