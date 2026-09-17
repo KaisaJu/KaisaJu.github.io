@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="/assets/css/fontawesome.css">
   <link rel="stylesheet" href="/assets/css/new-style.css">
+  <link rel="stylesheet" href="/assets/css/activity.css">
 </head>
 <body>
 
@@ -57,6 +58,15 @@
     </aside>
 
     <main class="page" role="main">
+      <section class="section is-visible open-source" style="margin-top:0" aria-labelledby="activity-title">
+        <h2 class="section-title" id="activity-title">Open-source Activity</h2>
+        <div class="activity-card">
+          <div class="activity-header"><span id="activity-status" role="status">Loading…</span><a href="https://github.com/KaisaJu" id="activity-more">View GitHub →</a></div>
+          <div id="activity-stats" class="activity-stats"></div>
+          <div id="activity-list"></div>
+          <noscript><a href="https://github.com/KaisaJu">GitHub · KaisaJu →</a></noscript>
+        </div>
+      </section>
       <section class="section is-visible" style="margin-top:0;">
         <h1 class="page__title" data-i18n="guide.title">How to Update This Site</h1>
         <p class="cv-block__text" data-i18n="guide.subtitle">A short guide for maintaining and publishing content on this website.</p>
@@ -64,7 +74,7 @@
 
       <section class="section cv-block">
         <h2 class="section-title" data-i18n="guide.how.title">How This Site Works</h2>
-        <p class="cv-block__text" data-i18n="guide.how.p1">This website is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and served from the repository <a href="https://github.com/KaisaJu/KaisaJu.github.io">KaisaJu/KaisaJu.github.io</a> (branch <code>master</code>). It is a pure static website: the HTML files in the repository are exactly what you see online. There is no Jekyll or other build step &mdash; a file named <code>.nojekyll</code> in the repository root turns that off &mdash; so every committed change goes live automatically in about one minute.</p>
+        <p class="cv-block__text" data-i18n="guide.how.p1">This website is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and served from the repository <a href="https://github.com/KaisaJu/KaisaJu.github.io">KaisaJu/KaisaJu.github.io</a> (branch <code>master</code>). There is no Jekyll or other build step &mdash; a file named <code>.nojekyll</code> in the repository root turns that off &mdash; so every committed change goes live automatically in about one minute.</p>
         <ul>
           <li data-i18n="guide.f1"><code>index.html</code> &mdash; the home page (biography, education, research interests)</li>
           <li data-i18n="guide.f2"><code>publications/index.html</code> &mdash; the publications page</li>
@@ -77,7 +87,7 @@
       </section>
 
       <section class="section cv-block">
-        <h2 class="section-title" data-i18n="guide.browser.title">Option 1: Edit Directly in the Browser (Easiest)</h2>
+        <h2 class="section-title" data-i18n="guide.browser.title">Option 1: Edit Directly in the Browser</h2>
         <p class="cv-block__text" data-i18n="guide.browser.p1">Open the <a href="https://github.com/KaisaJu/KaisaJu.github.io">repository on GitHub</a>, click the file you want to change, press the pencil icon (&ldquo;Edit&rdquo;), modify the text, then click &ldquo;Commit changes&rdquo;. GitHub Pages rebuilds the site automatically &mdash; no extra software needed.</p>
       </section>
 
@@ -90,7 +100,6 @@ cd KaisaJu.github.io
 git add -A
 git commit -m "Update content"
 git push origin master</pre>
-        <p class="guide-note"><i class="fas fa-circle-info"></i> <span data-i18n="guide.cli.note">Push access requires a Personal Access Token (or SSH key) &mdash; GitHub no longer accepts account passwords for git push. After about one minute, refresh the website and the change is live.</span></p>
       </section>
 
       <section class="section cv-block">
@@ -129,5 +138,6 @@ git push origin master</pre>
 
   <script src="/assets/js/i18n.js"></script>
   <script src="/assets/js/animations.js"></script>
+  <script src="/assets/js/activity.js"></script>
 </body>
 </html>
