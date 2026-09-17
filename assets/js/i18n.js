@@ -26,7 +26,7 @@
       'sidebar.role': 'PhD Student',
 
       'home.title': 'Biography',
-      'home.bio': 'Kaisa Julihati is currently a PhD student in <strong>Journalism and Communication</strong> at Nanjing University. His research interests focus on <strong>health communication</strong> and <strong>accessibility communication</strong>, particularly the visibility, information accessibility, and identity construction of patients and people with disabilities on digital platforms. His interdisciplinary background allows him to explore communication issues through both theoretical perspectives and empirical research methods.',
+      'home.bio': 'Kaisa Julihati is currently a PhD student in <strong>Journalism and Communication</strong> at Nanjing University. His research interests focus on <strong>health communication</strong> and <strong>accessibility communication</strong>, particularly the visibility, information accessibility, and identity construction of patients and people with disabilities on digital platforms.',
       'home.interests': 'Research Interests',
       'interest.health': 'Health Communication',
       'interest.accessibility': 'Accessibility Communication',
@@ -121,7 +121,7 @@
       'sidebar.role': '博士研究生',
 
       'home.title': '个人简介',
-      'home.bio': '凯撒·举力哈提现为南京大学新闻传播学博士研究生。他的研究方向聚焦于<strong>健康传播</strong>与<strong>无障碍传播</strong>，尤其关注患者与残障群体在数字平台上的可见性、信息可及性与身份建构。跨学科背景使他能够兼顾理论视角与实证研究方法，深入探讨传播议题。',
+      'home.bio': '凯撒·举力哈提现为南京大学新闻传播学博士研究生。他的研究方向聚焦于<strong>健康传播</strong>与<strong>无障碍传播</strong>，尤其关注患者与残障群体在数字平台上的可见性、信息可及性与身份建构。',
       'home.interests': '研究兴趣',
       'interest.health': '健康传播',
       'interest.accessibility': '无障碍传播',
