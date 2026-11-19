@@ -16,6 +16,7 @@
       'nav.talks': 'Talks',
       'nav.cv': 'CV',
       'nav.guide': 'Update Guide',
+      'nav.research': 'Research Desk',
 
       'sidebar.location': 'Nanjing, China',
       'sidebar.affiliation': 'Nanjing University',
@@ -111,6 +112,7 @@
       'nav.talks': '报告',
       'nav.cv': '简历',
       'nav.guide': '更新指南',
+      'nav.research': '研究时间簿',
 
       'sidebar.location': '中国南京',
       'sidebar.affiliation': '南京大学',
